@@ -1,0 +1,33 @@
+name: Redtube Playlist Güncelle
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 */2 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v6
+      
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.11'
+      
+      - run: pip install requests urllib3
+      
+      - name: Run script
+        run: python redtube.py
+        env:
+          ENCRYPTED_PLAYLIST_URL: ${{ secrets.ENCRYPTED_PLAYLIST_URL }}
+      
+      - name: Commit files
+        run: |
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add -A
+          git diff --cached --quiet || git commit -m "Güncelle Redtube Playlist"
+          git push
