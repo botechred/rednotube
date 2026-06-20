@@ -1,13 +1,7 @@
 #EXTM3U
 # Playlist: redtube
-# Generated: 2026-06-20 19:26:27
+# Generated: 2026-06-20 21:18:22
 # Total channels: 53
-
-#EXTINF:-1 tvg-logo="" group-title="red",TBV
-https://dar.vin/edh
-
-#EXTINF:-1 tvg-logo="" group-title="red",MHD
-https://dar.vin/mhd
 
 #EXTINF:-1 tvg-logo="" group-title="redtube",GDK-Belgesel-1
 https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1782003606/ei/NuM2au3IDtvm6dsPsqSPcA/ip/188.68.234.53/id/OMz7Pdp8t48.4/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr3---sn-x2pm-f5fs.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/bui/ARmQxEVNxApwwQKw8ZiVtbr2M5djx7xS3xPdKWxnpfPUIbnnfXh09DtyU9FSuEAm-aO4TWZ6jlwOYcb1/spc/SQ-umvOt08zpfXQL6SHTo_kMTNd9MyYbZmHwNue9HW7--rOp7A/vprv/1/reg/0/playlist_type/DVR/met/1781982006,/mh/h3/mm/44/mn/sn-x2pm-f5fs/ms/lva/mv/u/mvi/3/pcm2cms/yes/pl/22/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51565115,51565682,51987687/mt/1781981578/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,bui,spc,vprv,reg,playlist_type/sig/AHEqNM4wRgIhANnrFuRHL1S-LM7UAz3l6UFbFZhsaZ_5yTZzwDrKPSElAiEAxvci4J1pqDoLBC1SfE25Tj-VTAC1nmd_b5gKIwqfJUo%3D/lsparams/hls_chunk_host,met,mh,mm,mn,ms,mv,mvi,pcm2cms,pl,rms/lsig/APaTxxMwRQIgGoCq2KztE1HYxUh0_hRt5qTYS8CDSNYURaF9ehQIL1ACIQDT1X_YePs5d_LJ8L1nxQT7Bw6RFSV5TDVVZc8J6ZbOlA%3D%3D/playlist/index.m3u8
