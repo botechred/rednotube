@@ -2,14 +2,9 @@
 # Playlist: redtube
 # Generated: 2026-06-20 19:26:27
 # Total channels: 53
-#EXTINF:-1 tvg-logo="" group-title="red",Ang
-https://dar.vin/szc
 
 #EXTINF:-1 tvg-logo="" group-title="red",TBV
 https://dar.vin/edh
-
-#EXTINF:-1 tvg-logo="" group-title="red",Ang m3u8
-https://raw.githubusercontent.com/botechred/rednotube/refs/heads/main/redtube/ang.m3u8
 
 #EXTINF:-1 tvg-logo="" group-title="red",MHD
 https://dar.vin/mhd
